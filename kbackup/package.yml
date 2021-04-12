@@ -1,0 +1,22 @@
+name       : kbackup
+version    : 21.04
+release    : 1
+source     :
+    - https://github.com/KDE/kbackup/archive/refs/heads/release/21.04.zip : 6d9aa7ca4a3001d6a64d8a7b2b80c9d00c35911dc731a4968611fd1522a89d7a
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : KBackup is an application which lets you back up your data in a simple, user friendly way
+description: |
+    KBackup is an application which lets you back up your data in a simple, user friendly way
+builddeps  :
+    - karchive-devel
+    - kdoctools-devel
+    - kiconthemes-devel
+    - kio-devel
+    - knotifications-devel
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
