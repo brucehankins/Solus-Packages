@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>featherpad</Name>
+        <Packager>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
+        </Packager>
+        <License>GNU GPL-3.0</License>
+        <PartOf>office.notes</PartOf>
+        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.</Summary>
+        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>featherpad</Name>
+        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.</Summary>
+        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+</Description>
+        <PartOf>office.notes</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/featherpad</Path>
+            <Path fileType="executable">/usr/bin/fpad</Path>
+            <Path fileType="data">/usr/share/applications/featherpad.desktop</Path>
+            <Path fileType="data">/usr/share/featherpad/help</Path>
+            <Path fileType="data">/usr/share/featherpad/help_ja</Path>
+            <Path fileType="data">/usr/share/featherpad/help_pt_BR</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/featherpad.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-04-15</Date>
+            <Version>0.18.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

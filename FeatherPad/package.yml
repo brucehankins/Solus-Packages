@@ -1,0 +1,21 @@
+name       : featherpad
+version    : 0.18.0
+release    : 1
+source     :
+    - https://github.com/tsujan/FeatherPad/releases/download/V0.18.0/FeatherPad-0.18.0.tar.xz : f95c5494451890eefa7177022b065648b0633d5096715ae7f47c2cc7d784aec8
+license    : GNU GPL-3.0
+component  : office.notes
+summary    : FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+description: |
+    FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+builddeps  :
+        - qt5-svg-devel
+        - qt5-x11extras-devel
+        - libx11-devel
+        - libhunspell-devel
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
