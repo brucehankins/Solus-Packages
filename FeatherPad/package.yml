@@ -9,10 +9,10 @@ summary    : FeatherPad is a lightweight Qt plain-text editor for Linux.
 description: |
     FeatherPad is a lightweight Qt plain-text editor for Linux.
 builddeps  :
-        - pkgconfig(Qt5Svg)
-        - pkgconfig(Qt5X11Extras)
-        - pkgconfig(hunspell)
-        - pkgconfig(x11)
+    - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5X11Extras)
+    - pkgconfig(hunspell)
+    - pkgconfig(x11)
 setup      : |
     %cmake_ninja
 build      : |
