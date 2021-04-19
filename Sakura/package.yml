@@ -1,0 +1,20 @@
+name       : sakura
+version    : 3.8.1
+release    : 1
+source     :
+    - https://launchpad.net/sakura/trunk/3.8.1/+download/sakura-3.8.1.tar.gz : ec8232984a6e5d9b5279ebaf27602cac111930c67bda011bf9fda6fec4ce9ffc
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : Simple but powerful libvte based terminal emulator
+description: |
+    Simple but powerful libvte based terminal emulator
+builddeps  :
+	- cmake
+	- plgconfig(gtk+-3.0)
+	- pkgconfig(xft)
+setup      : |
+    %cmake_ninja
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
