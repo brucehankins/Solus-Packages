@@ -7,11 +7,12 @@ license    : GPL-2.0-or-later
 component  : system.utils
 summary    : Simple but powerful libvte based terminal emulator
 description: |
-    Simple but powerful libvte based terminal emulator
+    Sakura is a terminal emulator and it's only dependencies are GTK and VTE.
 builddeps  :
-	- cmake
-	- plgconfig(gtk+-3.0)
-	- pkgconfig(xft)
+    - cmake
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(vte-2.91)
+    - pkgconfig(xft)
 setup      : |
     %cmake_ninja
 build      : |

@@ -2,20 +2,20 @@
     <Source>
         <Name>featherpad</Name>
         <Packager>
-            <Name>Bruce Hankins</Name>
-            <Email>hankins.bruce@outlook.com</Email>
+            <Name>root</Name>
+            <Email>no.email.set.in.config</Email>
         </Packager>
-        <License>GNU GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>office.notes</PartOf>
-        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.</Summary>
-        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux.</Summary>
+        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>featherpad</Name>
-        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.</Summary>
-        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux. It is independent of any desktop environment.
+        <Summary xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux.</Summary>
+        <Description xml:lang="en">FeatherPad is a lightweight Qt plain-text editor for Linux.
 </Description>
         <PartOf>office.notes</PartOf>
         <Files>
@@ -30,11 +30,11 @@
     </Package>
     <History>
         <Update release="1">
-            <Date>2021-04-15</Date>
+            <Date>2021-04-16</Date>
             <Version>0.18.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bruce Hankins</Name>
-            <Email>hankins.bruce@outlook.com</Email>
+            <Name>root</Name>
+            <Email>no.email.set.in.config</Email>
         </Update>
     </History>
 </PISI>
