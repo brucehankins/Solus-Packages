@@ -1,5 +1,4 @@
 #  Ignore the following files
-Makefile
 Makefile.common
 Makefile.iso
 common/
