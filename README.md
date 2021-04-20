@@ -5,4 +5,5 @@ This is solely to learn to repackage software I find useful that is not currentl
 Any feedback is welcome, if you have any tips or tricks please let me know!
 
 Bruce Hankins
-@brucehankins_ on twitter
+@brucehankins_ on twitter 
+Telegram @brucehankins https://t.me/brucehankins
