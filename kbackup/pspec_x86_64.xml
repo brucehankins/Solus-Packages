@@ -1,0 +1,49 @@
+<PISI>
+    <Source>
+        <Name>kbackup</Name>
+        <Packager>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">KBackup is an application which lets you back up your data in a simple, user friendly way</Summary>
+        <Description xml:lang="en">KBackup is an application which lets you back up your data in a simple, user friendly way
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>kbackup</Name>
+        <Summary xml:lang="en">KBackup is an application which lets you back up your data in a simple, user friendly way</Summary>
+        <Description xml:lang="en">KBackup is an application which lets you back up your data in a simple, user friendly way
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/kbackup</Path>
+            <Path fileType="data">/usr/share/applications/org.kde.kbackup.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/HTML/en/kbackup/index.cache.bz2</Path>
+            <Path fileType="doc">/usr/share/doc/HTML/en/kbackup/index.docbook</Path>
+            <Path fileType="doc">/usr/share/doc/HTML/en/kbackup/mainwindow.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/kbackup.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/mimetypes/text-x-kbp.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/kbackup_cancel.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/kbackup_runs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/kbackup_start.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/kbackup.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/mimetypes/text-x-kbp.png</Path>
+            <Path fileType="data">/usr/share/kxmlgui5/kbackup/kbackupui.rc</Path>
+            <Path fileType="man">/usr/share/man/man1/kbackup.1</Path>
+            <Path fileType="data">/usr/share/metainfo/org.kde.kbackup.appdata.xml</Path>
+            <Path fileType="data">/usr/share/mime/packages/kbackup.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-04-12</Date>
+            <Version>21.04</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
