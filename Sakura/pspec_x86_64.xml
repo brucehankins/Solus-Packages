@@ -1,6 +1,7 @@
 <PISI>
     <Source>
         <Name>sakura</Name>
+        <Homepage>https://www.pleyades.net/david/projects/sakura</Homepage>
         <Packager>
             <Name>Bruce Hankins</Name>
             <Email>hankins.bruce@outlook.com</Email>
