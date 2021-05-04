@@ -1,5 +1,5 @@
 # Creating a local repository 
-More detailed and better information can be found in the Solus Help section. This is just a extremely basic set of commands and should be used at your own risk.
+More detailed and better information can be found in the Solus Help section. This is just an extremely basic set of commands and should be used at your own risk.
 You'll need to replace *user* and *Repo Directory* with your own unique fields. This is not a copy/paste set of commands and will not work out well for you if you try that.
 The commands listed here are for use with Solus only. Again, at your own risk.
 
