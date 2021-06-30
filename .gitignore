@@ -3,4 +3,5 @@ Makefile.common
 Makefile.iso
 common/
 opera-stable/
-Packaging/opera-stable/
+/opera-stable
+/opera-stable/
