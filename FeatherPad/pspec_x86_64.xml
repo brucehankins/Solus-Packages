@@ -2,8 +2,8 @@
     <Source>
         <Name>featherpad</Name>
         <Packager>
-            <Name>root</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>office.notes</PartOf>
@@ -23,18 +23,20 @@
             <Path fileType="executable">/usr/bin/fpad</Path>
             <Path fileType="data">/usr/share/applications/featherpad.desktop</Path>
             <Path fileType="data">/usr/share/featherpad/help</Path>
+            <Path fileType="data">/usr/share/featherpad/help_ca</Path>
             <Path fileType="data">/usr/share/featherpad/help_ja</Path>
             <Path fileType="data">/usr/share/featherpad/help_pt_BR</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/featherpad.svg</Path>
+            <Path fileType="data">/usr/share/metainfo/featherpad.metainfo.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2021-04-16</Date>
-            <Version>0.18.0</Version>
+        <Update release="2">
+            <Date>2022-01-08</Date>
+            <Version>1.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>root</Name>
-            <Email>no.email.set.in.config</Email>
+            <Name>Bruce Hankins</Name>
+            <Email>hankins.bruce@outlook.com</Email>
         </Update>
     </History>
 </PISI>

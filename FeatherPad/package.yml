@@ -1,8 +1,8 @@
 name       : featherpad
-version    : 0.18.0
-release    : 1
-source     : 
-    - https://github.com/tsujan/FeatherPad/releases/download/V0.18.0/FeatherPad-0.18.0.tar.xz : f95c5494451890eefa7177022b065648b0633d5096715ae7f47c2cc7d784aec8
+version    : 1.1.1
+release    : 2
+source     :
+    - https://github.com/tsujan/FeatherPad/releases/download/V1.1.1/FeatherPad-1.1.1.tar.xz : 90ed9fb3509ce2c5760ac3358e1783d7e2b7d35ee05b48c86d6a2fa25789736d
 license    : GPL-3.0-or-later
 component  : office.notes
 summary    : FeatherPad is a lightweight Qt plain-text editor for Linux.

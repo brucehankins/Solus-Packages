@@ -16,7 +16,6 @@ libQt5Core.so.5:_ZN10QByteArray7replaceEPKcRKS_
 libQt5Core.so.5:_ZN10QByteArrayC1EPKci
 libQt5Core.so.5:_ZN10QTextCodec12codecForNameERK10QByteArray
 libQt5Core.so.5:_ZN11QFileDevice5closeEv
-libQt5Core.so.5:_ZN11QMetaObject10ConnectionC1Ev
 libQt5Core.so.5:_ZN11QMetaObject10ConnectionD1Ev
 libQt5Core.so.5:_ZN11QMetaObject12invokeMethodEP7QObjectPKcN2Qt14ConnectionTypeE22QGenericReturnArgument16QGenericArgumentS7_S7_S7_S7_S7_S7_S7_S7_S7_
 libQt5Core.so.5:_ZN11QMetaObject14normalizedTypeEPKc
@@ -112,7 +111,6 @@ libQt5Core.so.5:_ZN7QLocale6systemEv
 libQt5Core.so.5:_ZN7QLocaleD1Ev
 libQt5Core.so.5:_ZN7QObject10childEventEP11QChildEvent
 libQt5Core.so.5:_ZN7QObject10disconnectEPKS_PKcS1_S3_
-libQt5Core.so.5:_ZN7QObject10disconnectERKN11QMetaObject10ConnectionE
 libQt5Core.so.5:_ZN7QObject10startTimerEiN2Qt9TimerTypeE
 libQt5Core.so.5:_ZN7QObject10timerEventEP11QTimerEvent
 libQt5Core.so.5:_ZN7QObject11connectImplEPKS_PPvS1_S3_PN9QtPrivate15QSlotObjectBaseEN2Qt14ConnectionTypeEPKiPK11QMetaObject
@@ -143,7 +141,6 @@ libQt5Core.so.5:_ZN7QString4chopEi
 libQt5Core.so.5:_ZN7QString6appendERKS_
 libQt5Core.so.5:_ZN7QString6insertEiPK5QChari
 libQt5Core.so.5:_ZN7QString6numberEii
-libQt5Core.so.5:_ZN7QString6numberEyi
 libQt5Core.so.5:_ZN7QString6removeE5QCharN2Qt15CaseSensitivityE
 libQt5Core.so.5:_ZN7QString6removeERKS_N2Qt15CaseSensitivityE
 libQt5Core.so.5:_ZN7QString6removeEii
@@ -304,7 +301,6 @@ libQt5Core.so.5:_ZNK7QString10startsWithERKS_N2Qt15CaseSensitivityE
 libQt5Core.so.5:_ZNK7QString11lastIndexOfERK18QRegularExpressioni
 libQt5Core.so.5:_ZNK7QString11lastIndexOfERK18QRegularExpressioniP23QRegularExpressionMatch
 libQt5Core.so.5:_ZNK7QString11lastIndexOfERKS_iN2Qt15CaseSensitivityE
-libQt5Core.so.5:_ZNK7QString11toULongLongEPbi
 libQt5Core.so.5:_ZNK7QString13isRightToLeftEv
 libQt5Core.so.5:_ZNK7QString13leftJustifiedEi5QCharb
 libQt5Core.so.5:_ZNK7QString18localeAwareCompareERKS_
@@ -356,6 +352,7 @@ libQt5Core.so.5:_ZNK9QIODevice11errorStringEv
 libQt5Core.so.5:_ZNK9QMimeData4dataERK7QString
 libQt5Core.so.5:_ZNK9QMimeData4urlsEv
 libQt5Core.so.5:_ZNK9QMimeData7hasUrlsEv
+libQt5Core.so.5:_ZNK9QMimeType15parentMimeTypesEv
 libQt5Core.so.5:_ZNK9QMimeType4nameEv
 libQt5Core.so.5:_ZNK9QSettings10isWritableEv
 libQt5Core.so.5:_ZNK9QSettings5valueERK7QStringRK8QVariant
@@ -566,7 +563,6 @@ libQt5Gui.so.5:_ZNK11QTextCursorleERKS_
 libQt5Gui.so.5:_ZNK11QTextFormat11hasPropertyEi
 libQt5Gui.so.5:_ZNK11QTextFormat13brushPropertyEi
 libQt5Gui.so.5:_ZNK11QTextFormat13toFrameFormatEv
-libQt5Gui.so.5:_ZNK11QTextFormat4typeEv
 libQt5Gui.so.5:_ZNK11QTextFormateqERKS_
 libQt5Gui.so.5:_ZNK11QTextLayout10drawCursorEP8QPainterRK7QPointFii
 libQt5Gui.so.5:_ZNK11QTextLayout15preeditAreaTextEv
@@ -712,7 +708,6 @@ libQt5Widgets.so.5:_ZN10QTabWidget11qt_metacallEN11QMetaObject4CallEiPPv
 libQt5Widgets.so.5:_ZN10QTabWidget11qt_metacastEPKc
 libQt5Widgets.so.5:_ZN10QTabWidget11resizeEventEP12QResizeEvent
 libQt5Widgets.so.5:_ZN10QTabWidget11tabInsertedEi
-libQt5Widgets.so.5:_ZN10QTabWidget13keyPressEventEP9QKeyEvent
 libQt5Widgets.so.5:_ZN10QTabWidget13setTabToolTipEiRK7QString
 libQt5Widgets.so.5:_ZN10QTabWidget14currentChangedEi
 libQt5Widgets.so.5:_ZN10QTabWidget14setTabPositionENS_11TabPositionE
@@ -858,7 +853,6 @@ libQt5Widgets.so.5:_ZN12QApplication16staticMetaObjectE
 libQt5Widgets.so.5:_ZN12QApplication16wheelScrollLinesEv
 libQt5Widgets.so.5:_ZN12QApplication17startDragDistanceEv
 libQt5Widgets.so.5:_ZN12QApplication19doubleClickIntervalEv
-libQt5Widgets.so.5:_ZN12QApplication19setWheelScrollLinesEi
 libQt5Widgets.so.5:_ZN12QApplication4execEv
 libQt5Widgets.so.5:_ZN12QApplication5eventEP6QEvent
 libQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent
@@ -953,6 +947,7 @@ libQt5Widgets.so.5:_ZN15QAbstractButton7setTextERK7QString
 libQt5Widgets.so.5:_ZN15QAbstractSlider10timerEventEP11QTimerEvent
 libQt5Widgets.so.5:_ZN15QAbstractSlider11changeEventEP6QEvent
 libQt5Widgets.so.5:_ZN15QAbstractSlider13keyPressEventEP9QKeyEvent
+libQt5Widgets.so.5:_ZN15QAbstractSlider17setSliderPositionEi
 libQt5Widgets.so.5:_ZN15QAbstractSlider8setValueEi
 libQt5Widgets.so.5:_ZN15QListWidgetItem4readER11QDataStream
 libQt5Widgets.so.5:_ZN15QListWidgetItem7setDataEiRK8QVariant
@@ -1329,6 +1324,7 @@ libQt5Widgets.so.5:_ZN9QShortcut9activatedEv
 libQt5Widgets.so.5:_ZN9QShortcutC1ERK12QKeySequenceP7QWidgetPKcS6_N2Qt15ShortcutContextE
 libQt5Widgets.so.5:_ZN9QSplitter12insertWidgetEiP7QWidget
 libQt5Widgets.so.5:_ZN9QSplitter14setOrientationEN2Qt11OrientationE
+libQt5Widgets.so.5:_ZN9QSplitter16setStretchFactorEii
 libQt5Widgets.so.5:_ZN9QSplitter8setSizesERK5QListIiE
 libQt5Widgets.so.5:_ZN9QSplitter9addWidgetEP7QWidget
 libQt5Widgets.so.5:_ZN9QSplitterC1EP7QWidget
@@ -1396,9 +1392,11 @@ libQt5Widgets.so.5:_ZNK14QPlainTextEdit21blockBoundingGeometryERK10QTextBlock
 libQt5Widgets.so.5:_ZNK14QPlainTextEdit21canInsertFromMimeDataEPK9QMimeData
 libQt5Widgets.so.5:_ZNK14QPlainTextEdit8documentEv
 libQt5Widgets.so.5:_ZNK15QAbstractButton9isCheckedEv
+libQt5Widgets.so.5:_ZNK15QAbstractSlider14sliderPositionEv
 libQt5Widgets.so.5:_ZNK15QAbstractSlider5valueEv
 libQt5Widgets.so.5:_ZNK15QAbstractSlider7maximumEv
 libQt5Widgets.so.5:_ZNK15QAbstractSlider7minimumEv
+libQt5Widgets.so.5:_ZNK15QAbstractSlider8pageStepEv
 libQt5Widgets.so.5:_ZNK15QListWidgetItem4dataEi
 libQt5Widgets.so.5:_ZNK15QListWidgetItem5cloneEv
 libQt5Widgets.so.5:_ZNK15QListWidgetItem5writeER11QDataStream
