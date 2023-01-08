@@ -123,6 +123,7 @@ libQt5Core.so.5:_ZN7QObject11deleteLaterEv
 libQt5Core.so.5:_ZN7QObject11eventFilterEPS_P6QEvent
 libQt5Core.so.5:_ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv
 libQt5Core.so.5:_ZN7QObject11qt_metacastEPKc
+libQt5Core.so.5:_ZN7QObject11setPropertyEPKcRK8QVariant
 libQt5Core.so.5:_ZN7QObject12blockSignalsEb
 libQt5Core.so.5:_ZN7QObject13connectNotifyERK11QMetaMethod
 libQt5Core.so.5:_ZN7QObject13setObjectNameERK7QString
@@ -300,6 +301,7 @@ libQt5Core.so.5:_ZNK7QLocale7toUpperERK7QString
 libQt5Core.so.5:_ZNK7QLocale8toStringEx
 libQt5Core.so.5:_ZNK7QObject10objectNameEv
 libQt5Core.so.5:_ZNK7QObject6senderEv
+libQt5Core.so.5:_ZNK7QObject8propertyEPKc
 libQt5Core.so.5:_ZNK7QString10startsWithERKS_N2Qt15CaseSensitivityE
 libQt5Core.so.5:_ZNK7QString11lastIndexOfERK18QRegularExpressioni
 libQt5Core.so.5:_ZNK7QString11lastIndexOfERK18QRegularExpressioniP23QRegularExpressionMatch
