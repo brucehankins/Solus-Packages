@@ -1,8 +1,8 @@
 name       : sakura
-version    : 3.8.2
-release    : 1
+version    : 3.8.6
+release    : 4
 source     :
-    - https://launchpad.net/sakura/trunk/3.8.2/+download/sakura-3.8.2.tar.gz : 1e7522502ac6168fed75c72c759d4a276aa0817250a347973fe1db5dd681ec6b
+    - https://launchpad.net/sakura/trunk/3.8.6/+download/sakura-3.8.6.tar.gz : 8684a215a07fe10405f589e88aee87e0eb8d650134a6f7486c6e5dd9a443de77
 license    : GPL-2.0-or-later
 component  : system.utils
 summary    : Simple but powerful libvte based terminal emulator
