@@ -91,6 +91,7 @@ libgobject-2.0.so.0:g_object_unref
 libgobject-2.0.so.0:g_signal_connect_data
 libgobject-2.0.so.0:g_signal_handler_disconnect
 libgobject-2.0.so.0:g_type_check_instance_is_a
+libgtk-3.so.0:gtk_accelerator_get_default_mod_mask
 libgtk-3.so.0:gtk_adjustment_new
 libgtk-3.so.0:gtk_box_new
 libgtk-3.so.0:gtk_box_pack_end
@@ -196,6 +197,7 @@ libgtk-3.so.0:gtk_widget_translate_coordinates
 libgtk-3.so.0:gtk_window_fullscreen
 libgtk-3.so.0:gtk_window_get_position
 libgtk-3.so.0:gtk_window_get_size
+libgtk-3.so.0:gtk_window_is_active
 libgtk-3.so.0:gtk_window_maximize
 libgtk-3.so.0:gtk_window_move
 libgtk-3.so.0:gtk_window_new
@@ -229,6 +231,7 @@ libvte-2.91.so.0:vte_terminal_match_add_regex
 libvte-2.91.so.0:vte_terminal_match_check_event
 libvte-2.91.so.0:vte_terminal_new
 libvte-2.91.so.0:vte_terminal_paste_clipboard
+libvte-2.91.so.0:vte_terminal_paste_primary
 libvte-2.91.so.0:vte_terminal_search_find_next
 libvte-2.91.so.0:vte_terminal_search_set_regex
 libvte-2.91.so.0:vte_terminal_search_set_wrap_around
