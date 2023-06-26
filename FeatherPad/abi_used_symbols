@@ -54,6 +54,7 @@ libQt5Core.so.5:_ZN16QCoreApplication18setApplicationNameERK7QString
 libQt5Core.so.5:_ZN16QCoreApplication21setApplicationVersionERK7QString
 libQt5Core.so.5:_ZN16QCoreApplication4quitEv
 libQt5Core.so.5:_ZN16QCoreApplication4selfE
+libQt5Core.so.5:_ZN16QCoreApplication9argumentsEv
 libQt5Core.so.5:_ZN16QCoreApplication9postEventEP7QObjectP6QEventi
 libQt5Core.so.5:_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent
 libQt5Core.so.5:_ZN16QCoreApplication9translateEPKcS1_S1_i
@@ -456,6 +457,7 @@ libQt5Gui.so.5:_ZN13QTextDocument14contentsChangeEiii
 libQt5Gui.so.5:_ZN13QTextDocument14setDefaultFontERK5QFont
 libQt5Gui.so.5:_ZN13QTextDocument16staticMetaObjectE
 libQt5Gui.so.5:_ZN13QTextDocument17blockCountChangedEi
+libQt5Gui.so.5:_ZN13QTextDocument17setDocumentMarginEd
 libQt5Gui.so.5:_ZN13QTextDocument19modificationChangedEb
 libQt5Gui.so.5:_ZN13QTextDocument20setDefaultTextOptionERK11QTextOption
 libQt5Gui.so.5:_ZN15QGuiApplication12platformNameEv
@@ -1535,6 +1537,8 @@ libQt5Widgets.so.5:_ZNK7QWidget8sizeHintEv
 libQt5Widgets.so.5:_ZNK8QMenuBar12cornerWidgetEN2Qt6CornerE
 libQt5Widgets.so.5:_ZNK8QMenuBar14actionGeometryEP7QAction
 libQt5Widgets.so.5:_ZNK8QSpinBox5valueEv
+libQt5Widgets.so.5:_ZNK8QSpinBox6suffixEv
+libQt5Widgets.so.5:_ZNK8QSpinBox7minimumEv
 libQt5Widgets.so.5:_ZNK9QCheckBox10checkStateEv
 libQt5Widgets.so.5:_ZNK9QComboBox12currentIndexEv
 libQt5Widgets.so.5:_ZNK9QComboBox15minimumSizeHintEv
@@ -1625,6 +1629,7 @@ libstdc++.so.6:_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmo
 libstdc++.so.6:_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv
 libstdc++.so.6:_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
 libstdc++.so.6:_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+libstdc++.so.6:_ZNSt14basic_ofstreamIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
 libstdc++.so.6:_ZNSt14basic_ofstreamIcSt11char_traitsIcEE5closeEv
 libstdc++.so.6:_ZNSt14basic_ofstreamIcSt11char_traitsIcEEC1Ev
 libstdc++.so.6:_ZNSt14basic_ofstreamIcSt11char_traitsIcEED1Ev
